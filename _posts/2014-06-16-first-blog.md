@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "First Blog"
-categories:
+categories:algorithm
 - 
-tags:algorithms
+tags:
 - 
 
 
