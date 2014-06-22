@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "First Blog"
-categories:algorithm
+title: "算法导论读书笔记"
+categories:
 - 
 tags:
 - 
 
 
 ---
-第一次提交
 ---
 #算法导论读书笔记#
 ---
