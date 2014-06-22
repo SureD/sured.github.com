@@ -4,4 +4,4 @@ title: 留言
 comments: yes
 ---
 
-来了，就留下你的足迹吧。欢迎讨论交流~ ^ ^
+Life is just a series of trying to make up your mind
