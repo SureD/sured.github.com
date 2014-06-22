@@ -1,15 +1,12 @@
 ---
 layout: post
-title: "First Blog"
-categories:
+title: "堆排序读书笔记"
+categories: 读书笔记
 - 
-tags:
+tags:[Algorithms]
 - 
 
 
----
-第一次提交
----
 #算法导论读书笔记#
 ---
 ##堆排序
