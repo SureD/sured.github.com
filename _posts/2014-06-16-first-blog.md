@@ -30,7 +30,7 @@ tags:
   *  最小堆：根结点的值最小，并且每个结点都依次满足此条件。
   *  堆的一些相关计算：
    * 高度为h的堆中：最多的元素个数：全满的情况
-  <img src="http://www.forkosh.com/mathtex.cgi? 2^0+2^1\cdots+2^h=2^{h+1}-1">  
+   <img src="http://chart.googleapis.com/chart?cht=tx&chl=  2^0+2^1\cdots+2^h=2^{h+1}-1" style="border:none;">
 最少元素个数：只含有一个叶结点的情况
 <img src="http://www.forkosh.com/mathtex.cgi? 2^0+2^1\cdots+2^{h-1}+1=2^{h}">  
 * 含n个元素的堆的高度为  <img src="http://www.forkosh.com/mathtex.cgi? ceiling(lgn)">  通过最多最少的元素求<img src="http://www.forkosh.com/mathtex.cgi? log">便可得。
