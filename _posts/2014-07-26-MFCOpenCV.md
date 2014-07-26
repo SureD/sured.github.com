@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "基于MFC&OpenCV实现的图像读取拖拽的小程序"
+title: "基于MFC&OpenCV实现的图像读取拖拽的程序"
 description: ""
 category: MFC
 tags: [MFC]
