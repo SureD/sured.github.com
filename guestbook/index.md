@@ -5,3 +5,7 @@ comments: yes
 ---
 
 Life is just a series of trying to make up your mind
+
+
+****
+Brave Fearless and Free

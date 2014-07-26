@@ -17,7 +17,7 @@ you can reach me
 
 ----
 
-Now we are trying to build a 3D printing system,if you have some ideas please share with me
+Currently we groups are building a 3D printing system..
 
 :)
 
