@@ -3,7 +3,7 @@ layout: post
 title: "单向链表反转的几种操作方法"
 description: "单向链表反转"
 category: 算法
-tags: [算法][数据结构]
+tags: [算法]
 --- 
 
 
