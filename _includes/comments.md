@@ -1,8 +1,3 @@
-<!-- UY BEGIN -->
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1971444"></script>
-<!-- UY END -->
-><!-- JiaThis Button BEGIN -->
 <div class="jiathis_style">
 <span class="jiathis_txt">分享到：</span>
 <a class="jiathis_button_tools_1"></a>
@@ -21,3 +16,9 @@ var jiathis_config={
 </script>
 <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js?uid=1971444" charset="utf-8"></script>
 <!-- JiaThis Button END -->
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1971444"></script>
+<!-- UY END -->
+><!-- JiaThis Button BEGIN -->
+
