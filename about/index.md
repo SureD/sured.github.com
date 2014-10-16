@@ -13,7 +13,7 @@ love
 > Coding|Algorithm|Music 
 
 you can reach me
->@[dengshuo346@gmail.com](mailto:dengshuo346#gmail.com) or [fork me](https://github.com/SureD)
+>@[dengshuo346#gmail.com]() or [fork me](https://github.com/SureD)
 
 ----
 
