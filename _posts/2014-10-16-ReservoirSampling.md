@@ -12,6 +12,7 @@ tags: [algorithm]
 今天在群里看到这么一道题，读取一个未知行数的文件，随机输出一行，并保证输出的每行概率相等，这道题应当采用蓄水池算法，非常神奇的算法，巧妙的利用了概率连乘的方法使得概率相等，具体的原理可以参考
 [戳这里](http://www.cnblogs.com/HappyAngel/archive/2011/02/07/1949762.html)这种方法感觉充分利用了当前的信息与迭代的思想，非常巧妙！
 以下是我的实验代码：
+
 {% highlight c++ linenos %}
 #include<stdio.h>
 #include<time.h>
