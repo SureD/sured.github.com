@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "蓄水池算法"
 description: "蓄水池算法"
 category: Algorithm
 tags: [algorithm]
