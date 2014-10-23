@@ -57,9 +57,7 @@ tags: [linux]
 > make
 
 
-可以进行编译，编译成功后在src文件夹下会产生可以执行文件      
-你就会看到熟悉的lena啦哈哈哈。其中也提供了python的接口，     
-也可以利用python       
+可以进行编译，其中也提供了python的接口，也可以利用python       
 
 
 ------------
@@ -70,15 +68,15 @@ tags: [linux]
 其实按照以上步骤进行安装时不会出错的，但是容易出现libgtk2.0安装不上的情况，     
 可能的原因是本来是由于自身版本过高的问题，可以按照下面的一个帖子进行安装，    
 利用apt-aptitute方式,而不是 apt-get ，若没有aptitute可以先apt-get install aptitute       
-**注意:采用aptitute安装时会告诉你几个可选择的方案，一般第一个方案为保持原状，          
-选n，然后第二个一般就是卸除高版本，安装libgtk2.0-dev了**
+*注意采用aptitute安装时会告诉你几个可选择的方案，一般第一个方案为保持原状，          
+选n，然后第二个一般就是卸除高版本，安装libgtk2.0-dev了*
 
 
 
 ------------
 
 #####Tricky：
-利用cmake 进行编译opencv工程文件：
+利用cmake 进行编译
 可在要编译的文件夹创建一个名为CMakeLists.txt文件
 写入
 
@@ -88,7 +86,7 @@ tags: [linux]
 >target_link_libraries( name ${OpenCV_LIBS} )      
 
 
-便可以利用cmake编译opencv文件，方便～～
+遍可以利用cmake编译文件，方便～～
 
 
 ---------------------
