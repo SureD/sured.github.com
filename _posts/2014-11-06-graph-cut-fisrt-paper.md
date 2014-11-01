@@ -22,13 +22,11 @@ Energy Minimization in Early vision
 数据项：每个像素对其所附标签的代价，这个主要是通过其大小判断标签的合理性。
 平滑想：每个像素与其邻域内的像素的距离，主要目的是使得像素与其邻域的像素尽可能平滑。
 在本文中的能量函数定义如下：   
-<img src="http://www.forkosh.com/mathtex.cgi?$E(f)=\sum\limits_{(p,q)\in N}{{{V}_{p,q}}({{f}_{p}},{{f}_{q}})}+\sum\limits_{p\in P}{{{D}_{p}}({{f}_{p}})}$"> 
+<img src="http://www.forkosh.com/mathtex.cgi?$E(f)=\sum\limits_{(p,q)\in N}{{{V}_{p,q}}({{f}{p}},{{f}_{q}})}+\sum\limits_{p\in P}{{{D}_{p}}({{f}_{p}})}$"> 
 
 此公式的形式对后面理解其算法的证明有着重要的作用，其中f代表一个标签集，N为邻域
 此后文章主要介绍了目前的一些对能量函数的优化算法，例如模拟退火算法等，此类算法的缺点是求解时间过长，并且也容易陷入局部极小值中。
 再者本章也介绍了一个重要的条件（metric）：
-<img src="http://www.forkosh.com/mathtex.cgi?\[\begin{align}& V(\alpha ,\beta )=0\Leftrightarrow \alpha =\beta  \\ & V(\alpha ,\beta )=V(\beta ,\alpha )\ge 0 \\ 
- & V(\alpha ,\beta )\le V(\alpha ,\gamma )\_+V(\gamma ,\beta ) \\ \end{align}\]">
 此条件主要是针对平滑项所做出的限制，若满足前两项成为semimetric，全部满足即称为metric条件，第三项条件可以看做三角形条件，相当于两边之和大于第三边这样。
 同时作者为了比较其算法的不同及优越性，也介绍了一种叫做
 Standard move的算法，其算法较为简单，也就是在图像分割时的改变标签的阶段，每次只能将一个像素点改变，这样不仅效率低，也不易找到更好的最优值。
