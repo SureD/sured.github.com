@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "C++设计与演化笔记(一)"
+title: "C++设计与演化读书笔记（一）"
 description: ""
 category: Programming language
-tags: [C++]
------------
+tags: [c++]
+---
 
+
+#####C++设计与演化读书笔记（一）
+---
 
 
 
