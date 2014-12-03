@@ -37,8 +37,8 @@ tags: [DesignPatterns]
 既然知道了毛病，那么应该怎么改，既然要针对接口来编程，就要找出接口喽，so easy，既然飞的方式又很多种，那么fly就是接口了，同理叫的方式也应当是接口了quack。但是。。。。我们不是已经在抽象类DUCK中定义了？哈，这就是不一样的地方了，我当时也是这么想的，那么回头看看刚开始策略模式的定义吧！我们不仅要找出接口，还要把它封装起来！因此我们将fly和quack抽象出来，变成一个类flybehavior，quackbehavior（书中用的是Java，将其变为接口interface……Java我也只是懂一点点，所以不太清楚，在C++中我感觉只能将这两个接口定义为基类了吧，如果有更好的方法请一定告诉我~毕竟我也只是freshman），然后对这个类进行继承覆盖。从而实现不同飞行方式，那么在完成了这个时候就该组合出场了！让你看看什么是多态的威力！！ Talk is cheap，show me your code（我最近在博客里很少贴code，主要原因是我的这个插件有点问题，一贴代码我的邮箱里就会有一对warning……然后gist也被墙了！！！真是气氛 #吐槽结束）我就随手写个片段，简单起见，就针对飞行吧：  
 {% highlight c++ linenos %}  
 class Duck{
-	Flybehavior flybehavior；
-public：
+	Flybehavior flybehavior;
+public:
 	fly();
 	getflybehavior(Flybehavior&);	
 }
@@ -56,9 +56,10 @@ class xxFlywithwings:Flybehavior{
 int main()
 {
 	XXDuck duck;
-	xxFlywithwings flyfly；
-	duck.getflybehavior(flyfly)；
+	xxFlywithwings flyfly;
+	duck.getflybehavior(flyfly);
 	duck.fly();
+	return 0;
 }  
 {% endhighlight %}
 
@@ -78,4 +79,4 @@ ps.最近正在做一个很有意思的小项目，用到了mongodb，不过我�
 
 
 
-SureD @2014.12.03 night
+                                                  SureD @2014.12.03 night 
