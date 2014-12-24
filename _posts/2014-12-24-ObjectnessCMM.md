@@ -45,7 +45,7 @@ The objectness measure acts as a class-generic object detector. It quantifies ho
 
 
 
-#####文章的理解：
+###文章的理解：
 **问题4：**  
 这里先把估算Objectness的公式列出来  
 ![formula](/assets/images/objectness/1.jpg)  
@@ -84,7 +84,7 @@ ol即为估算的Objectness值；
 关键的地方说完了……这部分就比较好说了，采用的训练模型为线性支持向量机： 
 公式1中的w，采用的ground truth以及随机的背景进行训练
 公式3中的两个参数，采用NMS选取到窗口以及最后的标注进行训练；  
-#####思路梳理
+###思路梳理
 如果理解没错的话，那么算法的流程是大概如下的：  
 >1. 首先进行参数训练；得到各种参数  
 2. 输入某图像；  
@@ -96,12 +96,12 @@ ol即为估算的Objectness值；
 
 
 -------
-#####参考文献：
+###参考文献：
 [1] BING: Binarized Normed Gradients for Objectness Estimation at 300fps. Ming-Ming Cheng, Ziming Zhang, Wen-Yan Lin, Philip Torr, IEEE CVPR, 2014.  
 [2] Measuring the objectness of image windows. Alexe, B., Deselares, T. and Ferrari, V. PAMI 2012.  
 
 -----
-#####写在最后
+###写在最后
 终于写完了，因为还没有读下源代码，因此可能回存在一些理解错误的地方，后面会继续的关注修改，也欢迎大家指正。  
 非常感谢程明明老师能够把这些东西贡献出来供大家学习，非常牛叉的工作，非常赞的精神！让我觉得有的时候一个好的算法不一定需要多么的复杂与高深，应该要针对问题进行解决，也许简单的方法就会起到很好的效果。  
 继续努力~！！
