@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Objectness Detection，关于图像理解以及目标检测的算法"
+title: "图像理解及目标检测的一种快速算法：Objectness Detection"
 description: ""
 category: PatternRecognition
 tags: [PatternRecognition]
@@ -8,7 +8,7 @@ tags: [PatternRecognition]
 ---
 
 
-###Objectness Detection，关于图像理解以及目标检测的算法
+图像理解及目标检测的一种快速算法：Objectness Detection
 
 
 ---
@@ -42,6 +42,9 @@ The objectness measure acts as a class-generic object detector. It quantifies ho
 2.	作者采用的features是什么？如何通过二值化进行加速
 3.	采用什么模型对数据进行训练，以及如何训练，训练什么参数
 4.	通过什么公式来估算Objectness值？
+
+
+
 #####文章的理解：
 **问题4：**  
 这里先把估算Objectness的公式列出来  
