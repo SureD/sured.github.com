@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "“C++的数组不支持多态？”--讨论"
+title: "C++的数组不支持多态？--讨论"
 description: ""
 category: C++
 tags: [C++]
@@ -10,6 +10,8 @@ tags: [C++]
 ### “C++的数组不支持多态？”--讨论
 
 ---
+
+
 
 今天在酷壳看到这样一篇有意思的[博客](http://coolshell.cn/articles/9543.html#more-9543)：**C++的数组不支持多态？**
 正好最近在看Inside the C++ Object Model就仔细研究了一下，顺便复习一下里面的data member的内容；  具体的问题在上面给出的链接中可以找到的～。
