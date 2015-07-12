@@ -17,7 +17,7 @@ you can reach me
 
 ----
 Currently I am working as an intern in Tencent company at ShenZhen   
-In  2014 we groups were building a 3D printing software system   
+In  2014 we groups built an 3D printing software system   
 My resarch is about image segmentation and pattern recogintiton;
 :)
 
