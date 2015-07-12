@@ -16,9 +16,10 @@ you can reach me
 >![@](http://services.nexodyne.com/email/icon/2vVxE8zbfL7A2rs%3D/shsnyhQ%3D/R01haWw%3D/0/image.png)or [fork me](https://github.com/SureD)
 
 ----
-
-Currently we groups are building a 3D printing system---finished at March 2014      
- Now my resarch is about image segmentation and pattern recogintiton;
+Currently I am working as an intern in Tencent company at ShenZhen
+In  2014 we groups were building a 3D printing software system   
+My resarch is about image segmentation and pattern recogintiton;
 :)
+
 
 ----
