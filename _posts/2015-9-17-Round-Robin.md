@@ -76,6 +76,7 @@ int main(int argc, _TCHAR* argv[])
 {% endhighlight %}
 
 如果有更好的想法欢迎拍砖指正呐~
+代码当时写的很糙……后来也没有改了……
 样例1：     
  arrival = [0,1,4] run = [5,2,3] n = 3, q = 3    
  output = 2.3333333   
